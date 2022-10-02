@@ -1,0 +1,48 @@
+.banner {
+    background-image: url("../img/ba1.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  h1{
+    font-weight:bold;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h2{
+font-size: 250%;
+font-weight:bold;
+color:rgb(78, 116, 81);
+font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  h3{
+   
+    padding: 10px;
+  }
+  h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .banner-info {
+    position: relative;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+  }
+  
+  body {
+    margin-bottom: 300px;
+  }
